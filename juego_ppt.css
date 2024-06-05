@@ -1,0 +1,59 @@
+header {
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    color: azure;
+}
+body {
+    background-color: rgba(0, 0, 255, 0.658);
+}
+main {
+    background-color: rgb(0, 0, 255);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.gridContainer {
+    background-color: rgb(58, 58, 179);
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    padding: 50px;
+    border-radius: 50px;
+}
+.divs {
+    background-color: blue;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 50px;
+}
+.divs img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+.divs button {
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+}
+.respuesta {
+    display: grid;
+    color: white;
+    border-radius: 30px;
+    background-color: blue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}

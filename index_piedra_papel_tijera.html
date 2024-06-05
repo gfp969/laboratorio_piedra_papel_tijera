@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="piedra_papel_tijera.js"></script>
+    <link rel="stylesheet" href="juego_ppt.css">
+    <title>Piedra, papel o tijera</title>
+</head>
+<body>
+    <header>
+        <h1> Juega Piedra, papel o tijera</h1>
+    </header>
+    <main>
+        <div class="gridContainer">
+            <div class="divs">
+                <img src="https://cdn.sportadictos.com/files/2022/03/Mano-con-piedra.jpg" alt="">
+                <br>
+                <button onclick="ppt(1)">Piedra</button>
+            </div>
+            <div class="divs">
+                <img src="https://img.freepik.com/foto-gratis/mano-sosteniendo-papeles-tamano-a4_93675-9162.jpg?size=626&ext=jpg"
+                    alt="">
+                    <br>
+                <button onclick="ppt(2)">Papel</button>
+            </div>
+            <div class="divs">
+                <img src="https://thumbs.dreamstime.com/b/mano-sosteniendo-las-tijeras-29868079.jpg" alt="">
+                <br>
+                <button onclick="ppt(3)">Tijera</button>
+            </div>
+        </div>
+        <div class="respuesta">
+            <p id="respuesta"></p>
+        </div>
+    </main>
+</body>
+</html>
